@@ -128,7 +128,7 @@ const ColorList = ({ colors, updateColors }) => {
               value={colorToAdd.code.hex}
               />
           </label>
-          <button type='submit'>Add</button>
+          <button type='submit' className='add-button'>Add</button>
         </form>
       </div>
     </div>
