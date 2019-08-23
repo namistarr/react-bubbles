@@ -123,7 +123,7 @@ const ColorList = ({ colors, updateColors }) => {
             hex code:
             <input
               onChange={event => 
-                setColorToAdd({ ...colorToAdd, code: event.target.value})
+                setColorToAdd({ ...colorToAdd, code: {hex: event.target.value}})
               }
               value={colorToAdd.code.hex}
               />
