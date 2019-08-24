@@ -13,7 +13,7 @@ body,
 .App {
   font-family: "Montserrat", sans-serif;
   text-align: center;
-  display: flex;
+  display: flex; 
 
   svg {
     height: 100%;
@@ -96,4 +96,14 @@ form {
     padding: 3px 8px;
     margin-top: 16px;
   }
+}
+
+.add-button {
+  display: flex;
+  width: 50px;
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 3px 8px;
+  margin-top: 16px;
 }
